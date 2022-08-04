@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "101419150517",
+    "project_id": "netninjaapp-4c7a4",
+    "storage_bucket": "netninjaapp-4c7a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101419150517:android:e2350ed90d7b50c703e2fc",
+        "android_client_info": {
+          "package_name": "com.example.random_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101419150517-65avbkbp3nb67fpnm5o919c0q20l841v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.random_app",
+            "certificate_hash": "64711a516439e096d3cb6698e54c06286de0b16c"
+          }
+        },
+        {
+          "client_id": "101419150517-62q8dju7hpe7m2o2qa73c072h2t3b3j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zlRaOS02XWC1-YnnUrZDMeQTqaSqvuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101419150517-62q8dju7hpe7m2o2qa73c072h2t3b3j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
