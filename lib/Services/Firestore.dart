@@ -16,14 +16,17 @@ class FirestoreServices{
   }
   Stream<List<UserModel>> readuser() =>
       hypeSquad.snapshots().map((event) =>
-      event.docs.map((e) =>UserModel.userFromJson(e.data()) ).toList()
+      event.docs.map((e) =>UserModel.userFromJson(e.data() as Map<String,dynamic>)).toList()
       );
   /*List<UserModel> _hypeSquadList(QuerySnapshot snapshot){
    return snapshot.docs.map((doc){
      return UserModel.userFromSnap(doc.data());
    }).toList(); 
   }*/
-  Stream<QuerySnapshot> get HypeSquad{
-    return hypeSquad.snapshots();
+
+  Stream<List<UserModel>> get HypeSquad{
+    return hypeSquad.snapshots().map((event) =>
+    event.docs.map((e) =>
+    UserModel.userFromJson(e.data()! as Map<String,dynamic>)).toList());
   }
 }
